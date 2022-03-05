@@ -151,7 +151,7 @@ MathJax = {
 </li>
 <li>单元类型：</li>
 <li><ul>
-<li>为<code>()</code>，唯一值也是<code>()</code>。</li>
+<li>元组<code>()</code>，唯一值也是<code>()</code>。</li>
 </ul>
 </li>
 </ul>
@@ -196,7 +196,7 @@ MathJax = {
 <pre class="line-numbers language-rust" data-language="rust"><code class="language-rust"><span class="token keyword">fn</span> <span class="token function-definition function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token keyword">let</span> words <span class="token operator">=</span> <span class="token string">"Hello world"</span><span class="token punctuation">;</span>
     <span class="token keyword">let</span> <span class="token punctuation">(</span>words<span class="token punctuation">,</span> words_size<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">push_rust_word</span><span class="token punctuation">(</span>words<span class="token punctuation">.</span><span class="token function">clone</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"&#123;&#125; - &#123;&#125;"</span><span class="token punctuation">,</span> words<span class="token punctuation">,</span> words_size<span class="token punctuation">)</span>
+    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"&#123;&#125; - &#123;&#125;"</span><span class="token punctuation">,</span> words<span class="token punctuation">,</span> words_size<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span>
 
 <span class="token keyword">fn</span> <span class="token function-definition function">push_rust_word</span><span class="token punctuation">(</span>words<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token keyword">str</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token keyword">usize</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
@@ -229,6 +229,11 @@ MathJax = {
             
           </div>
           <div class="post-foot-prev">
+            
+              <a href="/2022/03/05/rust-base-syntax/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
             
           </div>
         </div>
